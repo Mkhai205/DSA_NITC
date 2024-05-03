@@ -17,6 +17,6 @@ void generateCombinations(vector<int> &combination, int start, int k, int n){
 
 int main(){
     vector<int> combination;
-    generateCombinations(combination, 1, 2, 4);
+    generateCombinations(combination, 1, 4, 4);
     return 0;
 }
