@@ -7,6 +7,7 @@ int main(){
     int a[n][n] = {0};
 	int cnt = 1, l=0, r=n-1;
 	if(n & 1) a[n/2][n/2] = n*n;
+	
 	while(l<r){
 		for(int i=l; i<r; i++){
 			a[l][i]= cnt++;
